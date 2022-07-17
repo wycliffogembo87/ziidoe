@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import friendlies from "../images/mitre.jpg";
 
@@ -11,8 +10,8 @@ import {
   Checkbox,
   Button,
   Title,
-  Text,
-  Anchor,
+//   Text,
+//   Anchor,
   Grid,
 } from "@mantine/core";
 
@@ -78,19 +77,8 @@ export default function AuthenticationImage() {
           />
           <Checkbox label="Keep me logged in" mt="xl" size="md" />
           <Button fullWidth mt="xl" size="md">
-            Login
+            Sign Up
           </Button>
-
-          <Text align="center" mt="md">
-            Don&apos;t have an account?{" "}
-            <Anchor<"a">
-              href="#"
-              weight={700}
-              onClick={(event) => event.preventDefault()}
-            >
-              Register
-            </Anchor>
-          </Text>
         </Paper>
       </Grid>
     </div>
