@@ -9,6 +9,7 @@
   "dependencies": {
     "@mantine/core": "^4.2.12",
     "@mantine/dates": "^4.2.12",
+    "@mantine/ds": "^5.2.4",
     "@mantine/form": "^4.2.12",
     "@mantine/hooks": "^4.2.12",
     "@mantine/modals": "^4.2.12",
@@ -17,6 +18,7 @@
     "@remix-run/node": "^1.6.4",
     "@remix-run/react": "^1.6.4",
     "@remix-run/serve": "^1.6.4",
+    "@tabler/icons": "^1.91.0",
     "dayjs": "^1.11.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
