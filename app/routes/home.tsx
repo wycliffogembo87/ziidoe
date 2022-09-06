@@ -2,11 +2,11 @@ import { useState } from "react";
 import { createStyles, Navbar, Group, Code } from "@mantine/core";
 import {
   IconBellRinging,
-  IconFingerprint,
+  IconUser,
   IconKey,
   IconSettings,
   Icon2fa,
-  IconDatabaseImport,
+  IconDashboard,
   IconReceipt2,
   IconSwitchHorizontal,
   IconLogout,
@@ -94,11 +94,11 @@ const useStyles = createStyles((theme, _params, getRef) => {
 const data = [
   { link: "", label: "Notifications", icon: IconBellRinging },
   { link: "", label: "Billing", icon: IconReceipt2 },
-  { link: "", label: "Security", icon: IconFingerprint },
+  { link: "", label: "My Profile", icon: IconUser },
   { link: "", label: "SSH Keys", icon: IconKey },
-  { link: "", label: "Databases", icon: IconDatabaseImport },
-  { link: "", label: "Authentication", icon: Icon2fa },
-  { link: "", label: "Other Settings", icon: IconSettings },
+  { link: "", label: "Dashboard", icon: IconDashboard },
+  { link: "", label: "Team Reviews", icon: Icon2fa },
+  { link: "", label: "Settings", icon: IconSettings },
 ];
 
 export default function NavbarSimple() {
@@ -123,7 +123,7 @@ export default function NavbarSimple() {
   ));
 
   return (
-    <Navbar height={700} width={{ sm: 300 }} p="md">
+    <Navbar height={600} width={{ sm: 300 }} p="md">
       <Navbar.Section grow>
         <Group className={classes.header} position="apart">
           <MantineLogo size={28} />

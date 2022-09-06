@@ -78,11 +78,11 @@ export default function AuthenticationImage() {
           />
           <Checkbox label="Keep me logged in" mt="xl" size="sm" />
           <Button fullWidth mt="xl" size="sm">
-            Login
+            <Link to="/home">Login</Link>
           </Button>
 
           <Text align="center" mt="sm">
-            Don&apos;t have an account? <Link to="/signup" >Register</Link>
+            Don&apos;t have an account? <Link to="/signup">Register</Link>
           </Text>
         </Paper>
       </Grid>
